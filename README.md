@@ -2,10 +2,10 @@
 
 보호자 혼자 아이를 뒷좌석에 태우고 운전할 때, 차량의 착석·벨트·기어·문·내비 신호에 맞춰 승무원 캐릭터가 출발 전 확인부터 이동 안내, 하차 확인까지 대신 말해 주는 Pleos 헤드유닛 앱입니다.
 
-현대자동차그룹 차량용 앱 개발 공모전 출품작입니다. 만든 사람은 이 저장소의 기여자(Contributors) 목록에 있습니다.
+현대자동차그룹 차량용 앱 개발 공모전 출품작입니다(팀 보딩크루). 만든 사람은 이 저장소의 기여자(Contributors) 목록에 있습니다.
 
 ## APK
-- 위치: `apk/톡톡크루_release.apk` (서명된 release 빌드)
+- 위치: `apk/보딩크루_톡톡크루_release.apk` (서명된 release 빌드)
 - SHA-256: `d5dcd586eef38293730e9fe1862179a3a59e542c86c71619b65e1a0d9d747c43`
 - 패키지: `com.crewguide.probe`, minSdk 31 / targetSdk 34
 
@@ -23,7 +23,7 @@
 1. Pleos Connect 에뮬레이터 v2.1.0을 켭니다.
 2. APK를 설치하고 실행합니다(에뮬레이터의 앱 사용자는 10번입니다).
    ```
-   adb install --user 10 apk/톡톡크루_release.apk
+   adb install --user 10 apk/보딩크루_톡톡크루_release.apk
    adb shell am start --user 10 -n com.crewguide.probe/.MainActivity
    ```
 3. 처음 실행하면 알림 권한 안내와 처음 안내 3장이 나옵니다. [등록 없이 시작]을 누르거나 아이 별명을 등록합니다.
