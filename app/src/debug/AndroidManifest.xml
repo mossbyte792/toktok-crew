@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- debug 전용(2026-11-13 디자인 담당): 가짜 상태로 무대·홈 화면을 띄우는 디자인 미리보기. release 빌드에는 들어가지 않는다.
+     adb 사용 예는 DesignPreviewActivity.kt 머리 주석에 있다(XML 주석 안에는 하이픈 두 개를 쓸 수 없다).
+     LAUNCHER 카테고리가 없어 런처에 아이콘이 생기지 않는다. adb shell(셸 사용자)로 열기 위해 exported=true. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <activity
+            android:name=".DesignPreviewActivity"
+            android:exported="true"
+            android:label="디자인 미리보기(모의)"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" />
+    </application>
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 마스코트 소품 acc_glasses: design/split_mascot.py가 만든다 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1024dp" android:height="1024dp"
+    android:viewportWidth="1024" android:viewportHeight="1024">
+    <!-- 둥근 안경: 두 테 + 코다리 + 귀 쪽 다리. 렌즈는 투명 -->
+    <path android:strokeColor="#282F49" android:strokeWidth="10" android:strokeLineJoin="round" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M447,331 a52,52 0 1,0 0.1,0 Z"/>
+    <path android:strokeColor="#282F49" android:strokeWidth="10" android:strokeLineJoin="round" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M578,331 a52,52 0 1,0 0.1,0 Z"/>
+    <path android:strokeColor="#282F49" android:strokeWidth="10" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M497,378 Q512.5,366 528,378 M395,376 L352,372 M630,376 L673,372"/>
+</vector>

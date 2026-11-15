@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 마스코트 파츠 buttons: design/split_mascot.py가 만든다. 직접 고치지 않는다 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1024dp" android:height="1024dp"
+    android:viewportWidth="1024" android:viewportHeight="1024">
+    <path android:fillColor="#FEC94F" android:pathData="M511.883 677.132C514.513 677.065 516.973 678.43 518.308 680.697C519.644 682.965 519.644 685.779 518.308 688.046C516.973 690.314 514.513 691.679 511.882 691.611C507.956 691.511 504.826 688.299 504.826 684.372C504.826 680.444 507.956 677.233 511.883 677.132Z"/>
+    <path android:fillColor="#FEC94F" android:pathData="M511.883 646.003C514.497 645.951 516.935 647.315 518.257 649.57C519.579 651.825 519.58 654.619 518.258 656.874C516.936 659.13 514.498 660.494 511.884 660.442C507.953 660.364 504.808 657.155 504.807 653.223C504.807 649.292 507.952 646.082 511.883 646.003Z"/>
+</vector>

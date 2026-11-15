@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="duo_radius_card">24dp</dimen>   <!-- rounded-3xl -->
+    <dimen name="duo_radius_button">16dp</dimen> <!-- rounded-2xl -->
+    <dimen name="duo_edge">6dp</dimen>           <!-- 하단 입체 띠(StageUiTokens.EDGE_DP와 같다) -->
+    <dimen name="duo_touch_min">76dp</dimen>     <!-- DesignRules.MIN_TOUCH; 높이는 띠 포함 -->
+</resources>

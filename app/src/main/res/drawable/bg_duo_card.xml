@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 카드: 흰 바탕 + 연한 하단 띠(rounded-3xl). 띠 색은 장식이라 글자 대비 대상이 아니다. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#CBD5E1" />
+            <corners android:radius="@dimen/duo_radius_card" />
+        </shape>
+    </item>
+    <item android:bottom="@dimen/duo_edge">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="@dimen/duo_radius_card" />
+        </shape>
+    </item>
+</layer-list>

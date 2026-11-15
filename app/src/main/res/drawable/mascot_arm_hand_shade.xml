@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 마스코트 팔 파츠 arm_hand_shade: design/split_mascot.py가 만든다. 직접 고치지 않는다 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1024dp" android:height="1024dp"
+    android:viewportWidth="1024" android:viewportHeight="1024">
+    <path android:fillColor="#FA9888" android:pathData="M308.789 501.504C307.535 502.873 305.413 504.824 303.44 503.583C298.491 500.467 299.834 488.905 301.434 484.387C302.665 480.911 309.56 469.361 313.608 476.342C313.811 476.693 314.003 477.049 314.209 477.398C313.76 478.265 313.368 479.169 312.767 479.938C309.968 483.516 308.005 485.405 307.194 490.148C306.37 494.97 307.857 497.055 308.789 501.504Z"/>
+</vector>

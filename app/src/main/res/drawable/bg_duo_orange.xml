@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 하단 입체 띠 버튼(orange). 평상시: 본체가 위, 띠가 아래 6dp. 눌림: 본체가 띠만큼 내려가 띠가 가려진다.
+     버튼 높이 76dp 이상(띠 포함)으로 쓴다. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:top="@dimen/duo_edge">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/duo_orange" />
+                    <corners android:radius="@dimen/duo_radius_button" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/duo_orange_edge" />
+                    <corners android:radius="@dimen/duo_radius_button" />
+                </shape>
+            </item>
+            <item android:bottom="@dimen/duo_edge">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/duo_orange" />
+                    <corners android:radius="@dimen/duo_radius_button" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

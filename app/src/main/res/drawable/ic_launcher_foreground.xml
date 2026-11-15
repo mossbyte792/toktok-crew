@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 승무원 상의 어깨(특정 항공사 로고·날개 배지 없음) -->
+    <path
+        android:fillColor="#1E3A6E"
+        android:pathData="M28,88 C28,74 38,68 54,68 C70,68 80,74 80,88 Z" />
+    <!-- 셔츠 V넥 -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M45,68 L54,82 L63,68 Z" />
+    <!-- 스카프 매듭(따뜻한 골드 포인트) -->
+    <path
+        android:fillColor="#F4B63F"
+        android:pathData="M48,70 L54,77 L60,70 L56,84 L52,84 Z" />
+    <!-- 뒷머리 -->
+    <path
+        android:fillColor="#2E2420"
+        android:pathData="M34,46 C34,33 74,33 74,46 L74,60 C74,64 68,66 64,64 L44,64 C40,66 34,64 34,60 Z" />
+    <!-- 얼굴 -->
+    <path
+        android:fillColor="#F7D3BA"
+        android:pathData="M38,47 C38,37 70,37 70,47 L70,54 C70,63 62,68 54,68 C46,68 38,63 38,54 Z" />
+    <!-- 앞머리 -->
+    <path
+        android:fillColor="#2E2420"
+        android:pathData="M37,46 C39,37 69,37 71,46 C66,42 59,41 52,43 C46,44 41,45 37,46 Z" />
+    <!-- 정모(필박스 캡, 무배지) -->
+    <path
+        android:fillColor="#1B3566"
+        android:pathData="M38,33 C38,28 70,28 70,33 L72,41 C59,38 49,38 36,41 Z" />
+    <!-- 정모 골드 띠 -->
+    <path
+        android:fillColor="#F4B63F"
+        android:pathData="M37,39 C49,36.5 59,36.5 71,39 L71,41.5 C59,39 49,39 37,41.5 Z" />
+    <!-- 눈 -->
+    <path
+        android:fillColor="#231F20"
+        android:pathData="M46.5,51.5 A2.2,2.2 0 1,1 46.49,51.5 Z" />
+    <path
+        android:fillColor="#231F20"
+        android:pathData="M61.5,51.5 A2.2,2.2 0 1,1 61.49,51.5 Z" />
+    <!-- 볼터치 -->
+    <path
+        android:fillColor="#F29B8E"
+        android:fillAlpha="0.55"
+        android:pathData="M43,56.5 A2.8,1.8 0 1,1 42.99,56.5 Z" />
+    <path
+        android:fillColor="#F29B8E"
+        android:fillAlpha="0.55"
+        android:pathData="M65,56.5 A2.8,1.8 0 1,1 64.99,56.5 Z" />
+    <!-- 미소 -->
+    <path
+        android:strokeColor="#9C4238"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M49,58.5 Q54,63 59,58.5" />
+</vector>

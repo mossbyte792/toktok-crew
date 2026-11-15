@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 마스코트 소품 acc_ribbon: design/split_mascot.py가 만든다 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1024dp" android:height="1024dp"
+    android:viewportWidth="1024" android:viewportHeight="1024">
+    <!-- 작은 리본 핀: 머리 오른쪽 위 -->
+    <path android:fillColor="#E3504E" android:strokeColor="#B43436" android:strokeWidth="6" android:strokeLineJoin="round"
+        android:pathData="M668,262 L622,232 Q612,262 622,292 Z"/>
+    <path android:fillColor="#E3504E" android:strokeColor="#B43436" android:strokeWidth="6" android:strokeLineJoin="round"
+        android:pathData="M668,262 L714,232 Q724,262 714,292 Z"/>
+    <path android:fillColor="#FA9888" android:strokeColor="#B43436" android:strokeWidth="6"
+        android:pathData="M668,248 a16,16 0 1,0 0.1,0 Z"/>
+</vector>

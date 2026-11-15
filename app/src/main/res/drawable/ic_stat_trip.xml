@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2026-11-13 이동 안내 중 알림(상태 표시줄) 아이콘. 단색(시스템이 색을 입힌다), 자동차 옆모습 단순 도형 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M5,11 L7,6.5 C7.3,5.9 7.9,5.5 8.6,5.5 L15.4,5.5 C16.1,5.5 16.7,5.9 17,6.5 L19,11 L20,11 C20.6,11 21,11.4 21,12 L21,16 C21,16.6 20.6,17 20,17 L19,17 C19,18.1 18.1,19 17,19 C15.9,19 15,18.1 15,17 L9,17 C9,18.1 8.1,19 7,19 C5.9,19 5,18.1 5,17 L4,17 C3.4,17 3,16.6 3,16 L3,12 C3,11.4 3.4,11 4,11 Z M7.2,11 L16.8,11 L15.3,7.5 L8.7,7.5 Z" />
+</vector>

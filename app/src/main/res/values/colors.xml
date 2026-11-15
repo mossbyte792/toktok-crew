@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 톡톡 승무원 디자인 토큰(Duolingo풍). 대비비는 WCAG 2.x 상대휘도 공식으로 계산(2026-11-06).
+     코드의 단일 출처는 여전히 Palette.kt이며, 이 파일은 XML 리소스(drawable)용 사본이다. 값을 바꾸면 Palette.kt와 같이 고친다. -->
+<resources>
+    <!-- 배경·글자 -->
+    <color name="duo_bg">#F8FAFC</color>                 <!-- slate-50 -->
+    <color name="duo_text">#111111</color>               <!-- 배경 대비 18.05 -->
+
+    <!-- aviation 블루: 원색 3B82F6은 흰 글자 3.68이라 글자 배경에 못 쓴다 → 2563EB(흰 글자 5.17) -->
+    <color name="duo_blue_brand">#3B82F6</color>         <!-- 장식 전용(글자 배경 금지), 흰 글자 3.68 -->
+    <color name="duo_blue_deep">#1E3A8A</color>          <!-- 파랑 구성요소·단계 점(Palette.CREW_BLUE) -->
+    <color name="duo_blue">#2563EB</color>               <!-- 버튼 채움, 흰 글자 5.17 -->
+    <color name="duo_blue_edge">#1E40AF</color>          <!-- 하단 입체 띠, 배경 대비 8.34 -->
+    <color name="duo_on_blue">#FFFFFF</color>
+
+    <!-- playfulOrange: 원색 F97316은 흰 글자 2.80 → 채움은 원색 유지 + 어두운 글자(6.74) -->
+    <color name="duo_orange">#F97316</color>             <!-- 버튼 채움, 글자는 duo_on_orange -->
+    <color name="duo_on_orange">#111111</color>          <!-- 6.74 -->
+    <color name="duo_orange_edge">#C2410C</color>        <!-- 하단 입체 띠, 배경 대비 4.95 -->
+    <color name="duo_orange_text">#C2410C</color>        <!-- 밝은 배경 위 주황 글자(4.95) -->
+
+    <!-- 보조(회색 알약·비활성) -->
+    <color name="duo_slate_fill">#E2E8F0</color>
+    <color name="duo_slate_edge">#64748B</color>         <!-- 띠/배경 4.55 -->
+    <color name="duo_slate_text">#111111</color>
+
+    <!-- 2026-11-13 자동 확인 패널 정보 칩(Palette.INFO_CHIP_*의 사본). 대비는 DuoTokensTest가 계산한다 -->
+    <color name="duo_info_chip_text">#1E3A8A</color>
+    <color name="duo_info_chip_fill">#DBEAFE</color>
+    <color name="duo_info_chip_stroke">#1E40AF</color>
+    <color name="duo_info_chip_text_night">#DBEAFE</color>
+    <color name="duo_info_chip_fill_night">#1E3A8A</color>
+    <color name="duo_info_chip_stroke_night">#93C5FD</color>
+    <!-- 2026-11-15 r10e 스티커 무지개(Palette.STICKER_RB_*의 사본, 빨주노초파보). 대비는 StickerStyleTest -->
+    <color name="sticker_rb_red">#DC2626</color>
+    <color name="sticker_rb_orange">#EA580C</color>
+    <color name="sticker_rb_yellow">#D97706</color>
+    <color name="sticker_rb_green">#16A34A</color>
+    <color name="sticker_rb_blue">#2563EB</color>
+    <color name="sticker_rb_purple">#7C3AED</color>
+    <color name="sticker_rb_night_red">#F87171</color>
+    <color name="sticker_rb_night_orange">#FDBA74</color>
+    <color name="sticker_rb_night_yellow">#FACC15</color>
+    <color name="sticker_rb_night_green">#4ADE80</color>
+    <color name="sticker_rb_night_blue">#60A5FA</color>
+    <color name="sticker_rb_night_purple">#A78BFA</color>
+</resources>
